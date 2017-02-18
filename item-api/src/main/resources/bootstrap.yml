@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: item-api
+  cloud:
+    config:
+      uri: http://configserver:8888

@@ -1,0 +1,13 @@
+server:
+  port: 6012
+
+eureka:
+  instance:
+    hostname: ${spring.application.name}
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://discovery:8761/eureka/
+
+
